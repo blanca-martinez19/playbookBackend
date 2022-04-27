@@ -1,0 +1,19 @@
+const profile = {
+  user: "blanco",
+  username: "blancoM",
+};
+
+const travel = {
+  origin: "Puebla",
+  km: 80,
+  destiny: "CDMX",
+  price: 340,
+
+  getPrice: function () {
+    return "$" + this.price;
+  },
+};
+
+console.log("Perfil: " + profile.user);
+console.log("Viaje: " + travel.origin);
+console.log(travel.getPrice());
